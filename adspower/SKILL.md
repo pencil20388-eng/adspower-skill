@@ -184,6 +184,19 @@ Profile creation is always limited to 1 req/sec. Add `time.sleep(1.1)` between b
 - Always close browsers via API after automation to prevent resource leaks
 - Use `resp["data"]["ws"]["selenium"]` for Selenium, `resp["data"]["ws"]["puppeteer"]` for Playwright
 
+  ## Bundled Scripts
+
+### Profile Report Generator
+
+Generate a CSV audit report of all profiles:
+
+```bash
+python3 ${CLAUDE_SKILL_DIR}/scripts/profile_report.py
+python3 ${CLAUDE_SKILL_DIR}/scripts/profile_report.py --group "My Campaign"
+```
+
+Output includes: profile_id, name, group, proxy status, cookie status, creation time, last open time. Use this when the user asks to audit profiles, check proxy coverage, or generate a profile summary.
+
 ## Resources
 
 - [AdsPower Official](https://www.adspower.net/)
