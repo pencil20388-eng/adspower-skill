@@ -89,6 +89,7 @@ Intentionally minimal — a single file, no dependencies beyond `requests`. Clau
 - 📦 [Awesome AdsPower Automation](https://github.com/pencil20388-eng/awesome-adspower-automation) — Ready-to-use scripts, templates, and guides
 - 📖 [AdsPower API Docs](https://localapi-doc-en.adspower.com/)
 - 🌐 [AdsPower Official](https://www.adspower.net/)
+-  🇨🇳 [AdsPower 中文官网](https://www.adspower.net/)
 
 ## License
 
