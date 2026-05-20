@@ -1,3 +1,4 @@
+[English](./README.md) | [中文文档](./README_CN.md)
 # 🌐 AdsPower Skill for Claude Code
 
 A [Claude Code skill](https://code.claude.com/docs/en/skills) that lets Claude manage [AdsPower](https://www.adspower.net/) antidetect browser profiles through natural language.
