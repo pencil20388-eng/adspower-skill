@@ -84,6 +84,10 @@ Intentionally minimal — a single file, no dependencies beyond `requests`. Clau
 | `GET /api/v1/user/list` | Query profiles |
 | `POST /api/v1/group/create` | Create a profile group |
 
+## Integrations
+
+- **Chrome DevTools MCP + AdsPower** — Connect Google's official Chrome DevTools MCP to AdsPower profiles for AI-powered browser debugging across multiple identities. [Guide →](https://github.com/pencil20388-eng/browser-automation-skills/tree/main/skills/chrome-devtools-mcp-adspower)
+
 ## More Resources
 
 - 📦 [Awesome AdsPower Automation](https://github.com/pencil20388-eng/awesome-adspower-automation) — Ready-to-use scripts, templates, and guides
